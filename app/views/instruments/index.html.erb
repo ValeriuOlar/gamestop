@@ -1,5 +1,5 @@
 <% content_for :header do %>
-<section class="hero is-info">
+<section class="hero is-warning">
   <div class="hero-body">
     <div class="container">
       <h1 class="title">
@@ -7,8 +7,9 @@
       </h1>
     </div>
   </div>
-</section
- <% end %>
+</section>
+<% end %>
+
 <div class="instrument-index-grid pt4">
   <% @instruments.each do |instrument| %>
 
@@ -26,7 +27,7 @@
 
     <div class="pa3">
 
-      <h3 class="fw7 f4 title"><%= link_to instrument.title, instrument %></h3>
+      <h3 class="fw7 f4 title"><%= link_to instrument.title, title %></h3>
 
       <p class="has-text-gray fg pt1">Sold by <%= instrument.user.name %></p>
 
