@@ -34,7 +34,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 gem 'bulma-rails', '~> 0.6.1'
 gem 'simple_form'
-gem 'devise', '~> 4.4'
+gem 'devise', '~> 4.7'
 gem 'gravatar_image_tag', '~> 1.2'
 gem 'carrierwave'
 gem 'mini_magick'
